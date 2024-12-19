@@ -23,6 +23,7 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 # PROGRAM
+
 ```
 <html>
 <head>
@@ -31,7 +32,6 @@ Execute the program using runserver command.
 <body>
     <center>
         <img src="C:\Users\admin\slottimetable\sec logo.png">
-    
 
     <table>'
         <style>
@@ -40,53 +40,53 @@ Execute the program using runserver command.
         </style>
         <caption align="center"><b>SLOT TIME TABLE-AISHWARIYA S(24900840)</b></caption>
         <tr>
-            <td>day</td>
-            <td>8am to 10am</td>
-            <td>10am to 12pm</td>
-            <td>1pm to 3pm</td>
-            <td>3pm to 5pm</td>
+            <td bgcolor="violet">day</td>
+            <td bgcolor="grey">8am to 10am</td>
+            <td bgcolor="grey">10am to 12pm</td>
+            <td bgcolor="grey">1pm to 3pm</td>
+            <td bgcolor="grey">3pm to 5pm</td>
         </tr>
         <tr>
-        <td>MONDAY</td>
-        <td></td>
-        <td>WEB</td>
-        <td></td>
-        <td></td>
+        <td bgcolor="violet">MONDAY</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="blue">WEB</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="aquamarine"></td>
         </tr>
         <tr>
-        <td>Tuesday</td>
-        <td>BEEE</td>
-        <td>DE</td>
-        <td>python</td>
-        <td></td>
+        <td bgcolor="violet">Tuesday</td>
+        <td bgcolor="yellow">BEEE</td>
+        <td bgcolor="red">DE</td>
+        <td bgcolor="green">python</td>
+        <td bgcolor="aquamarine"></td>
         </tr>
         <tr>
-        <td>Wednesday</td>
-        <td></td>
-        <td>BEEE</td>
-        <td></td>
-        <td></td>
+        <td bgcolor="violet">Wednesday</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="yellow">BEEE</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="aquamarine"></td>
         </tr>
         <tr>
-        <td>Thursday</td>
-        <td></td>
-        <td>python</td>
-        <td>WEB</td>
-        <td></td>
+        <td bgcolor="violet">Thursday</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="green">python</td>
+        <td bgcolor="blue">WEB</td>
+        <td bgcolor="aquamarine"></td>
         </tr>
         <tr>
-        <td>Friday</td>
-        <td></td>
-        <td>DE</td>
-        <td>python</td>
-        <td></td>
+        <td bgcolor="violet">Friday</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="red">DE</td>
+        <td bgcolor="green">python</td>
+        <td bgcolor="aquamarine"></td>
         </tr>
         <tr>
-        <td>Saturday</td>
-        <td></td>
-        <td>CDS</td>
-        <td>python</td>
-        <td>WEB</td>
+        <td bgcolor="violet">Saturday</td>
+        <td bgcolor="aquamarine"></td>
+        <td bgcolor="pink">CDS</td>
+        <td bgcolor="green">python</td>
+        <td bgcolor="blue">WEB</td>
         </tr>
 
     </table><br>
@@ -98,27 +98,27 @@ Execute the program using runserver command.
             table,th,td{border:2px solid black;border-collapse: collapse;}
         </style>
 
-        <tr>
+        <tr bgcolor="wheat">
             <td>slot number</td>
             <td>subject</td>
         </tr>
-        <tr>
+        <tr bgcolor="green">
             <td>19AI301C</td>
             <td>Python and Linear algebra</td>
         </tr>
-        <tr>
+        <tr bgcolor="blue">
             <td>19AI414</td>
             <td>Fundamentals of web application</td>
         </tr>
-        <tr>
+        <tr bgcolor="yellow">
             <td>19EE305</td>
             <td>BEEE</td>
         </tr>
-        <tr>
+        <tr bgcolor="red">
             <td>19EE404</td>
             <td>Digital electronics</td>
         </tr>
-        <tr>
+        <tr bgcolor="pink">
             <td>19EY708</td>
             <td>Career Development skills</td>
 
@@ -127,8 +127,10 @@ Execute the program using runserver command.
         </table>
         </body>
         </html>
+
 ```
 # OUTPUT
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/fad423d7-c539-47a7-90a4-f41392d9706a)
+
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
